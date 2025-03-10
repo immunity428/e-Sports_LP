@@ -1,0 +1,58 @@
+/* lp.css */
+
+/* header */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 60px;
+  /* ヘッダーの追従 */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.header-text h1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-button-box {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.header-button {
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.header-button {
+  margin: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: lightgray;
+}
