@@ -23,7 +23,7 @@ body {
 .header-text h1 {
   color: #fff;
   font-family: Inter;
-  font-size: 32px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -61,36 +61,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* 画面全体の高さを使用 */
+  margin-top: 60px;
 }
 
 .hero-container {
   display: flex;
+  justify-content: center;
   align-items: center;
   background-color: white;
-  padding: 40px;
-  border-left: 5px solid black;
-  border-right: 5px solid black;
-  transform: skewX(-5deg);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.hero-img {
-  transform: skewX(5deg); /* skewの影響を打ち消す */
-  margin-right: 20px;
+  padding: 20px 40px;
+  margin: 40px;
+  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  max-width: 1200px;
+  min-width: 850px;
 }
 
 .hero-img img {
-  width: 100px;
+  width: 350px;
   height: auto;
 }
 
-.hero-text {
-  transform: skewX(5deg); /* skewの影響を打ち消す */
-}
-
 .hero-text h1 {
-  font-size: 32px;
+  font-size: 64px;
   color: black;
 }
 
@@ -100,8 +92,7 @@ body {
   flex-direction: column;
   margin: 0 auto;
   gap: 20px;
-  max-width: 1200px;
-  min-width: 850px;
+  width: 900px;
 }
 
 .about-main,
