@@ -1,5 +1,3 @@
-/* lp.css */
-
 /* header */
 body {
   margin: 0;
@@ -57,6 +55,44 @@ body {
   background-color: lightgray;
 }
 
+/* hero */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 画面全体の高さを使用 */
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 40px;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  transform: skewX(-5deg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-img {
+  transform: skewX(5deg); /* skewの影響を打ち消す */
+  margin-right: 20px;
+}
+
+.hero-img img {
+  width: 100px;
+  height: auto;
+}
+
+.hero-text {
+  transform: skewX(5deg); /* skewの影響を打ち消す */
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  color: black;
+}
+
 /* footer */
 footer{
   display: flex;
@@ -73,3 +109,4 @@ footer{
   font-weight: 400;
   line-height: normal;
 }
+
