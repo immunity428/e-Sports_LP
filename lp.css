@@ -1,6 +1,7 @@
 /* header */
 body {
   margin: 0;
+  background-color: gray;
   font-family: Arial, sans-serif;
 }
 
@@ -22,7 +23,7 @@ body {
 .header-text h1 {
   color: #fff;
   font-family: Inter;
-  font-size: 32px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -60,37 +61,88 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* 画面全体の高さを使用 */
+  margin-top: 60px;
 }
 
 .hero-container {
   display: flex;
+  justify-content: center;
   align-items: center;
   background-color: white;
-  padding: 40px;
-  border-left: 5px solid black;
-  border-right: 5px solid black;
-  transform: skewX(-5deg);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.hero-img {
-  transform: skewX(5deg); /* skewの影響を打ち消す */
-  margin-right: 20px;
+  padding: 20px 40px;
+  margin: 40px;
+  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  max-width: 1200px;
+  min-width: 850px;
 }
 
 .hero-img img {
-  width: 100px;
+  width: 350px;
   height: auto;
 }
 
-.hero-text {
-  transform: skewX(5deg); /* skewの影響を打ち消す */
+.hero-text h1 {
+  font-size: 64px;
+  color: black;
 }
 
-.hero-text h1 {
+/* about */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 20px;
+  width: 900px;
+}
+
+.about-main,
+.about-sub {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-left-box {
+  width: 45%;
+  min-height: 220px;
+  background-color: #ffffff;
+  padding: 20px;
+  position: relative;
+  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+}
+
+.about-right-box {
+  width: 45%;
+  min-height: 220px;
+  background-color: #ffffff;
+  padding: 20px;
+  position: relative;
+  clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.about-title {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.about-right-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-main p,
+.about-sub p {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+.about-main span,
+.about-sub span {
+  display: block;
+  text-align: center;
   font-size: 32px;
-  color: black;
 }
 
 /* info */
@@ -152,7 +204,7 @@ body {
 }
 
 /* footer */
-footer{
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -167,4 +219,3 @@ footer{
   font-weight: 400;
   line-height: normal;
 }
-
