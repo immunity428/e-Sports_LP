@@ -147,10 +147,10 @@ body {
 
 /* game-image */
 .game-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
 }
 .game-grid-container {
     display: grid;
