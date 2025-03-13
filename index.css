@@ -113,20 +113,48 @@ body {
 
 .about-left-box {
   width: 45%;
-  min-height: 220px;
+  height: 280px;
   background-color: #ffffff;
   padding: 20px;
   position: relative;
   clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
 }
 
+.about-right-box-img {
+  width: 50%;
+  height: 320px;
+  background-color: #ffffff;
+  padding: 0px;
+  position: relative;
+  clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.about-right-box-img img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .about-right-box {
   width: 45%;
-  min-height: 220px;
+  height: 320px;
   background-color: #ffffff;
   padding: 20px;
   position: relative;
   clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.about-left-box-img {
+  width: 50%;
+  height: 360px;
+  background-color: #ffffff;
+  padding: 0px;
+  position: relative;
+  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+}
+
+.about-left-box-img img {
+  height: 100%;
+  object-fit: cover;
 }
 
 .about-title {
