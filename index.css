@@ -56,6 +56,16 @@ body {
   background-color: lightgray;
 }
 
+/* backgroundimg */
+.backgroundimg {
+  /* 背景画像パス（差し替え時使用） */
+  background-image: url('img/GCIrPA1aIAA4Hy7.jfif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* hero */
 .hero {
   display: flex;
