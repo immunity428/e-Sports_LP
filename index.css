@@ -246,12 +246,11 @@ body {
 
 .section {
   margin: auto;
-  max-width: 1050px;
+  max-width: 900px;
   min-width: 850px;
 }
 
 .container {
-  margin: 6%;
   padding: 3% 0 5% 0;
 }
 
