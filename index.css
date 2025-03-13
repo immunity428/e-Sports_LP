@@ -60,7 +60,8 @@ body {
 /* backgroundimg */
 .backgroundimg {
   /* 背景画像パス（差し替え時使用） */
-  background-image: url('img/GBkLmddb0AAMmtr.jfif');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('img/GBkLmddb0AAMmtr.jfif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
