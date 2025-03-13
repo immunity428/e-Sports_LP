@@ -114,20 +114,20 @@ body {
 
 .about-left-box {
   width: 45%;
-  height: 280px;
+  height: 360px;
   background-color: #ffffff;
   padding: 20px;
   position: relative;
-  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
 }
 
 .about-right-box-img {
   width: 50%;
-  height: 320px;
+  height: 400px;
   background-color: #ffffff;
   padding: 0px;
   position: relative;
-  clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .about-right-box-img img {
@@ -141,7 +141,7 @@ body {
   background-color: #ffffff;
   padding: 20px;
   position: relative;
-  clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .about-left-box-img {
@@ -150,12 +150,13 @@ body {
   background-color: #ffffff;
   padding: 0px;
   position: relative;
-  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
 }
 
 .about-left-box-img img {
   height: 100%;
   object-fit: cover;
+  overflow: hidden;
 }
 
 .about-title {
