@@ -243,10 +243,17 @@ body {
 
 /* info leader共通 */
 
+.section {
+  margin: auto;
+  max-width: 1200px;
+}
+
 .container {
-  margin: 5%;
+  margin: 6%;
   padding: 3% 0 5% 0;
   background-color: white;
+  max-width: 1200px;
+  min-width: 850px;
 }
 
 .container h1 {
