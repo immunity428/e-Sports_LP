@@ -377,7 +377,7 @@ body {
   height: 70px;
 }
 
-.info-content p {
+.info-content a {
   font-family: HGSMinchoE;
   font-size: 32px;
 }
