@@ -287,7 +287,7 @@ body {
 .section {
   margin: auto;
   max-width: 900px;
-  min-width: 850px;
+  /* min-width: 850px; */
 }
 
 .container {
@@ -407,4 +407,19 @@ footer {
   font-weight: 400;
   font-size: 64px;
   color: #fff;
+}
+
+/* レスポンシブデザイン */
+
+@media screen and (max-width: 500px) {
+
+  /* header */
+  .header {
+    height: 30px;
+  }
+
+  .header-text h1 {
+    font-size: 15px;
+  }
+  
 }
