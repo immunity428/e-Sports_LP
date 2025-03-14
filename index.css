@@ -99,6 +99,15 @@ body {
   color: black;
 }
 
+.header-button-box a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: HGSMinchoE;
+  font-size: 24px;
+  color: black;
+}
+
 /* about */
 .about-container {
   display: flex;
