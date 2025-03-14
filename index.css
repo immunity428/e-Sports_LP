@@ -124,6 +124,17 @@ body {
   justify-content: space-around;
 }
 
+.about-sub {
+  display: flex;
+  width: 820px;
+  height: 330px;
+  border-radius: 45px;
+  background: #d9d9d9;
+  margin: 40px auto;
+  padding: 20px;
+  justify-content: space-around;
+}
+
 .about-right-box-img {
   display: flex;
   width: 250px;
@@ -195,7 +206,9 @@ body {
 .about-sub p {
   display: block;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: HGSMinchoE;
+  margin-top: 30px;
 }
 
 .about-main span,
@@ -203,6 +216,8 @@ body {
   display: block;
   text-align: center;
   font-size: 32px;
+  font-family: HGSMinchoE;
+  margin-top: 30px;
 }
 
 /* game-image */
