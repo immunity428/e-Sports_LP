@@ -1,7 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+
 /* header */
 body {
   margin: 0;
   overflow-x: hidden;
+    /* 背景画像パス（差し替え時使用） */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)),
+    url('img/GBkLmddb0AAMmtr.jfif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
 .header {
@@ -56,17 +68,6 @@ body {
   background-color: lightgray;
 }
 
-/* backgroundimg */
-.backgroundimg {
-  /* 背景画像パス（差し替え時使用） */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)),
-    url('img/GBkLmddb0AAMmtr.jfif');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 /* hero */
 .hero {
   display: flex;
@@ -81,13 +82,13 @@ body {
   align-items: center;
   background-color: white;
   padding: 20px 40px;
-  margin: 40px;
+  margin: 40px 5%;
   clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
-  width: 900px;
+  max-width: 900px;
 }
 
 .hero-img img {
-  width: 350px;
+  max-width: 350px;
   height: auto;
 }
 
@@ -112,7 +113,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  width: 900px;
+  max-width: 900px;
 }
 .about-title {
   display: block;
@@ -123,21 +124,21 @@ body {
 }
 .about-main {
   display: flex;
-  width: 820px;
+  /* width: 100%; */
   border-radius: 45px;
   background: #d9d9d9;
-  margin: 40px auto;
+  margin: 40px 5%;
   padding: 20px;
   justify-content: space-around;
 }
 
 .about-sub {
   display: flex;
-  width: 820px;
-  height: 330px;
+  /* width: 100%; */
+  height: 350px;
   border-radius: 45px;
   background: #d9d9d9;
-  margin: 40px auto;
+  margin: 40px 5%;
   padding: 20px;
   justify-content: space-around;
 }
@@ -242,7 +243,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* gap: 20px; */
-  width: 700px;
+  max-width: 700px;
 }
 
 .game-item {
@@ -287,7 +288,7 @@ body {
 .section {
   margin: auto;
   max-width: 900px;
-  min-width: 850px;
+  /* min-width: 850px; */
 }
 
 .container {
@@ -407,4 +408,61 @@ footer {
   font-weight: 400;
   font-size: 64px;
   color: #fff;
+}
+
+/* レスポンシブデザイン */
+
+@media screen and (max-width: 875px) {
+  .header {
+    height: 45px;
+  }
+
+  .header-text h1 {
+    font-size: 20px;
+  }
+
+  .header-button {
+    width: 140px;
+    height: 30px;
+  }
+
+  .header-button-box  a{
+    font-size: 16px;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 686px) {
+
+  /* header */
+  .header {
+    height: 30px;
+  }
+
+  .header-text h1 {
+    font-size: 15px;
+  }
+
+  /* hero */
+
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .about-right-box-img,
+  .about-right-box-img-sub {
+    display: none;
+  } 
+  
+  .header-button {
+    width: 80px;
+    height: 20px;
+  }
+
+  .header-button-box  a{
+    font-size: 11px;
+  }
 }
