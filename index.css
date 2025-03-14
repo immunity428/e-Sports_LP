@@ -234,7 +234,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
+  margin: 3% 5% 5% 5%;
 }
 
 .game-grid-container {
@@ -243,13 +243,13 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* gap: 20px; */
-  max-width: 700px;
+  max-width: 800px;
 }
 
 .game-item {
   position: relative;
-  width: 260px;
-  height: 160px;
+  max-width: 280px;
+  height: auto;
   margin: 10px;
 }
 
