@@ -249,21 +249,23 @@ body {
   align-items: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* gap: 20px; */
-  max-width: 800px;
+  width: 820px;
 }
 
 .game-item {
   position: relative;
-  max-width: 280px;
-  height: auto;
+  width: 280px;
+  height: 180px;
   margin: 10px;
+  /* overflow-x: hidden; */
 }
 
 .game-item img {
   width: 100%;
   height: 100%;
   display: block;
+  overflow-x: hidden;
+  object-fit: cover;
 }
 
 .game-title {
