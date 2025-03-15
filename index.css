@@ -459,4 +459,11 @@ footer {
   .header-button-box  a{
     font-size: 11px;
   }
+  /* leader */
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 }
