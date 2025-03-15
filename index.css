@@ -92,9 +92,19 @@ body {
 }
 
 .hero-text h1 {
+  display: block;
   font-family: HGSMinchoE;
   font-size: 64px;
   color: black;
+  gap: 10px;
+  margin: 0px;
+}
+
+.line1-2,
+.line3-4 {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
 }
 
 .header-button-box a {
@@ -439,6 +449,14 @@ footer {
 
   .header-button-box a {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 926px) {
+  .line3-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
   }
 }
 
