@@ -390,6 +390,20 @@ body {
   font-size: 32px;
 }
 
+.info-content a {
+  text-decoration: none; /* アンダーラインを消す */
+  color: black; /* 文字色を黒にする */
+}
+
+.info-content a:visited {
+  color: black; /* 訪問済みのリンクも黒にする */
+}
+
+.info-content a:hover,
+.info-content a:active {
+  color: black; /* ホバー時やクリック時も黒にする */
+}
+
 /* footer */
 footer {
   display: flex;
