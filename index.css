@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -6,14 +6,13 @@
 body {
   margin: 0;
   overflow-x: hidden;
-    /* 背景画像パス（差し替え時使用） */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)),
+  /* 背景画像パス（差し替え時使用） */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)),
     url('img/GBkLmddb0AAMmtr.jfif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
 }
 
 .header {
@@ -259,11 +258,11 @@ body {
 
 .game-title {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 0px;
+  left: 0px;
   background: rgba(0, 0, 0, 0);
-  color: rgb(255, 255, 255);
-  padding: 5px 10px;
+  color: #ffffff;
+  padding: 2px 8px;
   font-size: 16px;
   font-weight: bold;
   border-radius: 3px;
@@ -424,13 +423,12 @@ footer {
     height: 30px;
   }
 
-  .header-button-box  a{
+  .header-button-box a {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 686px) {
-
   /* header */
   .header {
     height: 30px;
@@ -449,14 +447,20 @@ footer {
   .about-right-box-img,
   .about-right-box-img-sub {
     display: none;
-  } 
-  
+  }
+
   .header-button {
     width: 80px;
     height: 20px;
   }
 
-  .header-button-box  a{
+  .header-button-box a {
+    font-size: 11px;
+  }
+
+  /* titles */
+  .game-title {
+    position: absolute;
     font-size: 11px;
   }
 }
