@@ -172,20 +172,21 @@ body {
 }
 
 .main-img {
-  height: 150px;
+  max-width: 360px;
+  width: 100%;
   margin-bottom: 15px;
 }
 
 .main-img img {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
   border-radius: 10px;
   border: 3px solid #ffffff;
 }
 
 .sub-img {
   position: relative;
-  width: 400px;
+  max-width: 360px;
   border-radius: 10px;
 }
 
@@ -507,6 +508,12 @@ footer {
   }
   .bottom-img {
     display: none;
+  }
+}
+
+/* about img size */
+@media screen and (max-width: 800px) {
+  .about-right-box-img-sub {
   }
 }
 
