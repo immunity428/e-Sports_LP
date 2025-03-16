@@ -434,7 +434,7 @@ footer {
 }
 
 /* レスポンシブデザイン */
-
+/* header */
 @media screen and (max-width: 875px) {
   .header {
     height: 45px;
@@ -454,6 +454,60 @@ footer {
   }
 }
 
+@media screen and (max-width: 751px) {
+  .header-button {
+    width: 80px;
+    height: 20px;
+  }
+
+  .header-button-box a {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .header {
+    height: 30px;
+  }
+
+  .header-text h1 {
+    font-size: 15px;
+  }
+}
+
+/* hero */
+@media screen and (max-width: 751px) {
+  .hero-container {
+    flex-direction: column;
+  }
+}
+
+/* about */
+@media screen and (max-width: 875px) {
+  .about-right-box-img,
+  .about-right-box-img-sub {
+    display: none;
+  }
+}
+
+/* titles */
+@media screen and (max-width: 751px) {
+  .game-title {
+    position: absolute;
+    font-size: 11px;
+  }
+}
+
+/* leader */
+@media screen and (max-width: 751px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* 改行用 */
 @media screen and (max-width: 900px) {
   .line1-2 {
     display: flex;
@@ -464,49 +518,5 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 0px;
-  }
-}
-
-@media screen and (max-width: 686px) {
-  /* header */
-  .header {
-    height: 30px;
-  }
-
-  .header-text h1 {
-    font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 751px) {
-  /* hero */
-  .hero-container {
-    flex-direction: column;
-  }
-
-  .about-right-box-img,
-  .about-right-box-img-sub {
-    display: none;
-  }
-
-  .header-button {
-    width: 80px;
-    height: 20px;
-  }
-
-  .header-button-box a {
-    font-size: 11px;
-  }
-
-  /* titles */
-  .game-title {
-    position: absolute;
-    font-size: 11px;
-  }
-  /* leader */
-  .content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
   }
 }
