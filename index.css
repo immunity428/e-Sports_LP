@@ -22,12 +22,6 @@ body {
   background-color: black;
   color: white;
   height: 60px;
-  /* ヘッダーの追従 */
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  width: 100%;
 }
 
 .header-text h1 {
@@ -73,6 +67,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .hero-container {
@@ -303,15 +298,6 @@ body {
 
 .container {
   padding: 3% 0 5% 0;
-}
-
-.container h1 {
-  margin: 0 0 2% 0;
-  text-align: center;
-  color: white;
-  font-size: 64px;
-  font-family: HGSMinchoE;
-  font-weight: 400;
 }
 
 .content-container {
