@@ -249,13 +249,13 @@ body {
   align-items: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 820px;
+  max-width: 820px;
 }
 
 .game-item {
   position: relative;
-  width: 280px;
-  height: 180px;
+  max-width: 280px;
+  height: auto;
   margin: 10px;
   /* overflow-x: hidden; */
 }
