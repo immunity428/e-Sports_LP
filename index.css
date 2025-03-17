@@ -407,6 +407,14 @@ footer {
   }
 }
 @media screen and (max-width: 500px) {
+  .leader-img-container {
+    height: 80px;
+    width: 80px;
+  }
+  .leader-img-container img {
+    height: 80px;
+    width: 80px;
+  }
   .leader-content content p {
     font-size: 14px;
   }
