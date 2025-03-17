@@ -134,7 +134,7 @@ section {
 .hero-text h1 {
   display: block;
   color: black;
-  font-size: clamp(24px, 8vw, 60px); /* 24px以上、8vwを基準、最大60px */
+  font-size: 9vw;
 }
 
 .line1-2 {
