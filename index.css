@@ -132,40 +132,30 @@ section {
 
 .line1-2 {
   display: flex;
-  gap: 30px;
   flex-direction: row;
+  gap: 30px;
 }
 
-@media screen and (max-width: 600px) {
-  .line1-2 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .hero {
-    height: 45vw;
-  }
-
+@media screen and (max-width: 900px) {
   .line1-2 {
     display: flex;
     flex-direction: column;
     gap: 0px;
   }
+
+  .hero {
+    height: 45vw;
+  }
 }
 
 /* hero 完成 */
-
-/* hero以外のセクションのみ */
-.section {
-  max-width: 900px;
-}
 
 /* about */
 .about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  padding: 0px 30px;
 }
 
 .about-container {
@@ -212,6 +202,14 @@ section {
 
   .about-img img {
     display: none;
+  }
+
+  .about-text span {
+    font-size: 18px;
+  }
+
+  .about-text p {
+    font-size: 14px;
   }
 }
 
@@ -270,6 +268,12 @@ section {
 
 .game-img-right {
   clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+@media (max-width: 750px) {
+  .game-image {
+    display: none;
+  }
 }
 
 /* info leader共通 */
@@ -348,33 +352,13 @@ section {
   text-align: center;
 }
 
-.info-img-container {
-  width: 100px;
-  height: 100px;
-}
-
 .info-img-container img {
   width: 70px;
   height: 70px;
 }
 
 .info-content a {
-  font-family: HGSMinchoE;
   font-size: 32px;
-}
-
-.info-content a {
-  text-decoration: none; /* アンダーラインを消す */
-  color: black; /* 文字色を黒にする */
-}
-
-.info-content a:visited {
-  color: black; /* 訪問済みのリンクも黒にする */
-}
-
-.info-content a:hover,
-.info-content a:active {
-  color: black; /* ホバー時やクリック時も黒にする */
 }
 
 /* footer */
@@ -411,6 +395,14 @@ footer {
     flex-direction: column;
     text-align: center;
   }
+  .leader-content p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .leader-content content p {
+    font-size: 14px;
+  }
 }
 
 /* info */
@@ -420,6 +412,16 @@ footer {
   }
   .info-content a {
     font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .info-content img {
+    width: 30px;
+    height: 30px;
+  }
+  .info-content a {
+    font-size: 18px;
   }
 }
 
