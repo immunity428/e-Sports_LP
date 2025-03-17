@@ -29,6 +29,13 @@ body {
   z-index: 0;
 }
 
+@media screen and (max-width: 900px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.85)),
+      url('img/back/GBkLmddb0AAMmtr.jfif');
+  }
+}
+
 /* タイトル */
 .title {
   font-size: 6vw;
