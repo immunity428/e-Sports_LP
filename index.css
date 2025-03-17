@@ -147,6 +147,7 @@ section {
   .line1-2 {
     flex-direction: column;
     gap: 0px;
+    line-height: 0.8;
   }
 
   .hero-text h1 {
