@@ -168,6 +168,7 @@ section {
   background-color: #d9d9d9;
   border-radius: 30px;
   padding: 30px;
+  max-width: 800px;
 }
 
 .about-text {
