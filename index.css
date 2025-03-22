@@ -297,6 +297,7 @@ section {
   width: 100%;
   height: auto;
   overflow: hidden;
+  display: none;
 }
 
 .carousel-title {
@@ -313,7 +314,6 @@ section {
   height: 200px;
   position: relative;
   perspective: 4000px;
-  display: none;
   overflow: visible;
 }
 
@@ -388,7 +388,7 @@ section {
 }
 
 @media (max-width: 750px) {
-  .carousel {
+  .section-carousel {
     display: block;
   }
 }
