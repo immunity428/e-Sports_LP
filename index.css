@@ -291,6 +291,75 @@ section {
   }
 }
 
+/* carousel */
+.carousel {
+  margin: 15% auto;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  perspective: 1000px;
+  display: none;
+  overflow: visible;
+}
+
+.carousel-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+.item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 250px;
+  height: 140px;
+  line-height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #FFF;
+  opacity: 0.95;
+  border-radius: 10px;
+  transform-origin: center center;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.carousel-button {
+  display: block;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 110%;
+  transform: translateY(-50%);
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.5);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.prev { left: 0px; }
+.next { right: 0px; }
+
+.prev:hover, .next:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 850px) {
+  .carousel {
+    display: block;
+  }
+}
+
 
 /* info leader result共通 */
 
